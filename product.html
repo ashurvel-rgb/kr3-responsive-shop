@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Карточка учебного товара — блокнота для учёбы.">
+  <title>Блокнот для учёбы — ShopProject</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Блокнот для учёбы — ShopProject">
+  <meta property="og:description" content="Карточка популярного товара учебного интернет-магазина.">
+  <meta property="og:image" content="https://ashurvel-rgb.github.io/kr1-html-css-shop/images/preview.jpg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="index.html">ShopProject</a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <ul class="site-nav__list">
+          <li class="site-nav__item"><a class="site-nav__link" href="index.html">Главная</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="catalog.html">Каталог</a></li>
+          <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="product.html">Товар</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="order.html">Оформить заказ</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <a class="breadcrumbs__link" href="index.html">Главная</a>
+      <a class="breadcrumbs__link" href="catalog.html">Каталог</a>
+      <span class="breadcrumbs__current">Блокнот для учёбы</span>
+    </nav>
+
+    <article class="product-detail">
+      <div class="product-detail__media" aria-hidden="true">📘</div>
+      <div class="product-detail__content">
+        <p class="product-detail__badge">Популярный товар</p>
+        <h1 class="product-detail__title">Блокнот для учёбы</h1>
+        <p class="product-detail__description">
+          Практичный блокнот в твёрдой обложке для лекций, домашних заданий и личных заметок.
+        </p>
+        <p class="product-detail__price">1 000 руб.</p>
+        <a class="button button--primary" href="order.html?product=notebook">Оформить заказ</a>
+      </div>
+    </article>
+
+    <section class="section" aria-labelledby="characteristics-title">
+      <h2 id="characteristics-title">Характеристики товара</h2>
+      <div class="table-wrapper">
+        <table class="product-table">
+          <caption class="product-table__caption">Основные характеристики блокнота</caption>
+          <thead class="product-table__head">
+            <tr>
+              <th scope="col">Характеристика</th>
+              <th scope="col">Значение</th>
+            </tr>
+          </thead>
+          <tbody class="product-table__body">
+            <tr><th scope="row">Формат</th><td>A5</td></tr>
+            <tr><th scope="row">Количество листов</th><td>96</td></tr>
+            <tr><th scope="row">Тип обложки</th><td>Твёрдая</td></tr>
+            <tr><th scope="row">Разлиновка</th><td>Клетка</td></tr>
+            <tr><th scope="row">Цвет</th><td>Синий</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="site-footer__text">&copy; 2026 Учебный проект. Все права защищены.</p>
+    <p class="site-footer__text">Дисциплина: Фронтенд и бэкенд разработка</p>
+  </footer>
+</body>
+</html>
