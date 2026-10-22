@@ -8,6 +8,7 @@ Thumbs.db
 # Временные файлы
 *.tmp
 *.temp
+.server.pid
 
 # Переменные окружения
 .env

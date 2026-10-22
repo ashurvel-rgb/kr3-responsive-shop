@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Карточка учебного товара — блокнота для учёбы.">
   <title>Блокнот для учёбы — ShopProject</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <script src="js/main.js" defer></script>
   <meta property="og:type" content="website">
   <meta property="og:title" content="Блокнот для учёбы — ShopProject">
@@ -36,7 +38,17 @@
     </nav>
 
     <article class="product-detail">
-      <div class="product-detail__media" aria-hidden="true">📘</div>
+      <div class="product-detail__media">
+        <img
+          class="product-card__image"
+          src="images/product-1-640.svg"
+          srcset="images/product-1-480.svg 480w, images/product-1-640.svg 640w, images/product-1-960.svg 960w"
+          sizes="(max-width: 767px) 100vw, 50vw"
+          alt="Синий блокнот для учёбы"
+          width="640"
+          height="480"
+        >
+      </div>
       <div class="product-detail__content">
         <p class="product-detail__badge">Популярный товар</p>
         <h1 class="product-detail__title">Блокнот для учёбы</h1>

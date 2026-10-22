@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Учебный интернет-магазин</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <script src="js/main.js" defer></script>
 
   <meta property="og:type" content="website">
@@ -91,6 +93,16 @@
 
         <div class="products-grid">
           <article class="product-card product-card--featured">
+            <img
+              class="product-card__image"
+              src="images/product-1-640.svg"
+              srcset="images/product-1-480.svg 480w, images/product-1-640.svg 640w, images/product-1-960.svg 960w"
+              sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+              alt="Синий блокнот для учёбы"
+              width="640"
+              height="480"
+              loading="lazy"
+            >
             <h3 class="product-card__title">Товар 1</h3>
             <p class="product-card__description">Краткое описание учебного товара.</p>
             <p class="product-card__price">Цена: 1000 руб.</p>
