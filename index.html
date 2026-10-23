@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Учебный интернет-магазин</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <script src="js/main.js" defer></script>
 
   <meta property="og:type" content="website">
@@ -38,13 +40,25 @@
   <!-- Единственный main содержит основное содержимое страницы. -->
   <main>
     <section class="hero">
-      <h1 class="hero__title">Учебный интернет-магазин</h1>
-      <p class="hero__description">
-        Это стартовая страница учебного frontend-проекта.
-        В дальнейшем на её основе будет разработан многостраничный сайт
-        интернет-магазина или каталога услуг.
-      </p>
-      <a class="button button--primary hero__action" href="#popular">Перейти к товарам</a>
+      <div class="hero__content">
+        <h1 class="hero__title">Учебный интернет-магазин</h1>
+        <p class="hero__description">
+          Адаптивный каталог учебных товаров, который удобно использовать
+          на телефоне, планшете и большом экране.
+        </p>
+        <a class="button button--primary hero__action" href="#popular">Перейти к товарам</a>
+      </div>
+      <picture>
+        <source media="(min-width: 1200px)" srcset="images/hero-desktop.svg">
+        <source media="(min-width: 768px)" srcset="images/hero-tablet.svg">
+        <img
+          class="hero__image"
+          src="images/hero-mobile.svg"
+          alt="Учебные принадлежности интернет-магазина"
+          width="640"
+          height="360"
+        >
+      </picture>
     </section>
 
     <section class="section" id="advantages">
@@ -62,6 +76,15 @@
       <div class="products-grid">
         <!-- Каждая карточка — самостоятельный смысловой блок article. -->
         <article class="product-card product-card--featured">
+          <img
+            class="product-card__image"
+            src="images/product-1-640.svg"
+            srcset="images/product-1-480.svg 480w, images/product-1-640.svg 640w, images/product-1-960.svg 960w"
+            sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
+            alt="Синий блокнот для учёбы"
+            width="640"
+            height="480"
+          >
           <h3 class="product-card__title">Блокнот для учёбы</h3>
           <p class="product-card__description">Учебный товар: блокнот в твёрдой обложке для лекций и заметок.</p>
           <p class="product-card__price">Цена: 1000 руб.</p>

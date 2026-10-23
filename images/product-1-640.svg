@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 480 360" role="img" aria-labelledby="title desc">
+  <title id="title">Синий учебный блокнот</title>
+  <desc id="desc">Иллюстрация синего блокнота, карандаша и линейки</desc>
+  <rect width="480" height="360" rx="28" fill="#eef5ff"/>
+  <rect x="105" y="55" width="230" height="250" rx="18" fill="#0057b8"/>
+  <rect x="132" y="78" width="176" height="204" rx="10" fill="#fff"/>
+  <path d="M157 120h126M157 158h126M157 196h126M157 234h92" stroke="#b8d4f3" stroke-width="10" stroke-linecap="round"/>
+  <path d="M96 80v200" stroke="#f0b429" stroke-width="18" stroke-linecap="round"/>
+  <path d="M96 55l-9 26h18z" fill="#6b4f2a"/>
+  <circle cx="346" cy="276" r="34" fill="#168a2f"/>
+  <path d="m331 276 10 10 20-24" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
