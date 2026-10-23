@@ -72,6 +72,8 @@ kr3-responsive-shop/
 6. В DevTools проверить ширины 360px, 430px, 768px, 1024px и 1440px.
 7. Во вкладке Network с фильтром Img проверить выбор адаптивных изображений.
 
+Фото для Open Graph-превью: [Unsplash](https://unsplash.com/photos/VlgJiE4KQKg).
+
 ## Автор
 
 - ФИО: Велиханов Ашурбег Мадрудинович
